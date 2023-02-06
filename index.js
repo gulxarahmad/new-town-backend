@@ -22,7 +22,7 @@ const InstallmentReceipt = require('./Models/Installment');
 require('./cloundinary')
 
 
-const PORT = 3009
+const PORT = 3005
 
 const app = express();
 dotenv.config();
@@ -249,5 +249,5 @@ app.put('/change-password/:id', async(req, res) => {
 
 
 app.listen(process.env.PORT || PORT, () => {
-    console.log('Server is running');
+    console.log('Server is running', PORT);
 })
