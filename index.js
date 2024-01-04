@@ -38,7 +38,7 @@ const storageEngine = multer.diskStorage({
 
 
 //const url = 'mongodb+srv://gulloahmad:gulloahmad@cluster0.33a9k.mongodb.net/NewABADI123?retryWrites=true&w=majority'
-const url = 'mongodb+srv://gullosheikh:Gullobutt1@cluster0.cani3.mongodb.net/NewTownDB?retryWrites=true&w=majority'
+const url = 'mongodb+srv://gullosheikh:oOd7PkCFM1C5wIkP@cluster0.cani3.mongodb.net/NewTownDB?retryWrites=true&w=majority'
 mongoose.connect(url, {
     useNewUrlParser: true,
     useUnifiedTopology: true
